@@ -7,7 +7,6 @@ import React, {
 } from 'react';
 import { useDispatch } from 'react-redux';
 import { TransactionTable } from './TransactionsTable';
-import lively from '@jlongster/lively';
 import {
   splitTransaction,
   updateTransaction,
